@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.shortcuts import render_to_response
+
+def index(request):
+     return render_to_response('index.html')
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', index, name='index'),
 ]

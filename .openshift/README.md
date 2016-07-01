@@ -1,9 +1,9 @@
 # Django Template for OpenShift
 
 ## Template App Information
-Product: Django  
-Version: 1.8.4
-Source:  https://github.com/django/django.git  
+Product: Django
+Version: 1.9.3
+Source:  https://github.com/django/django.git
 
 ## Maintenance
 This folder contains a diff file that includes the changes made to the
